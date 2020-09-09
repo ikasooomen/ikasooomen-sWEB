@@ -1,0 +1,85 @@
+@import url(sanitize.css);
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+
+header {
+  background-color: #7EC2C2 ;
+  color: #ffffff ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-size: 18px;
+  text-align: center;
+}
+
+body {
+  background-color: #f1f8ff ;
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #31444D;
+}
+
+h2, .profile {
+  text-align: center;
+}
+
+hr {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.gamelistF {
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+}
+
+.gamelistS {
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+}
+
+.programing {
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+}
+
+ul, ol {
+  background: #fcf5ea  ;
+  box-shadow: 0px 0px 0px 10px #faf1e3 ;
+  border: dashed 2px #7EC2C2  ;
+  border-radius: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5em 0.5em 0.5em 2em;
+
+}
+
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+.story h1 {
+  text-align: center;
+}
+
+.story h2 {
+  border-left :solid 5px #E67A7A;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.story p {
+  margin-left: 10px;
+}
+
+.other h1 {
+  text-align: center;
+}
+
+.butn {
+  font-size: 20px;
+  text-align: center;
+}
